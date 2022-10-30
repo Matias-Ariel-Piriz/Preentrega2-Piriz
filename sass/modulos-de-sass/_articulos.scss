@@ -1,0 +1,33 @@
+img.img__articulo {
+    display: block;
+    padding: 2em;
+    width: 95%;
+    height: 50vh;
+    object-fit: cover;
+    object-position: center;
+    overflow: hidden;
+}
+
+h1.h1__articuo {
+    font-family: sans-serif;
+    font-size: 2rem;
+    padding: 5px;
+    color: white;
+}
+
+h2.h2__articulo {
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    padding: 8px;
+    color: white;
+    /*text-align: center;*/
+
+}
+
+
+p.p__articulo {
+    font-size: 20px;
+    font-family: serif;
+    padding: 1em;
+    padding-top: 0.2em;
+}

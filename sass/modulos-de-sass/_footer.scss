@@ -1,0 +1,21 @@
+footer {
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    
+}
+
+a.footer__a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: capitalize;
+    font-family: sans-serif;
+}
+a.footer__a:hover{
+transform: scale(110%);
+transition: 1s;}

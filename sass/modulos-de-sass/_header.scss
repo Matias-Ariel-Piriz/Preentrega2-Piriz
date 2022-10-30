@@ -1,0 +1,38 @@
+img.logo__header {
+    block-size: 20vh;
+}
+
+.nav__header{
+    
+      background-color: black;
+     display: flex;
+      flex-wrap: wrap;
+     align-items: center;
+      justify-content: space-around;
+    
+}
+.ul__header {
+    display: flex;
+    padding: 5vh;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.item__header {
+    padding: 10px;
+    /* display: flex; */
+}
+
+.item__ancor {
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: sans-serif;
+
+}
+
+.item__header:hover{
+transform: scale(110%);
+transition: 1s;}

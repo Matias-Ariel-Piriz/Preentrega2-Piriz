@@ -1,0 +1,47 @@
+.grid{
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: darkgrey;
+    grid-gap: 20px;
+    padding: 50px;
+}
+main{
+    background-color: darkgray;
+}
+.ventana__div {
+    display: flex;
+
+    overflow: hidden;
+}
+
+img.ventana__img {
+    padding: 45px;
+    block-size: 18vh;
+    padding-bottom: 10px;
+    display: block;
+    width: 90%;
+    height: auto;}
+
+    
+
+
+
+
+
+h2.ventana__h2 {
+    font-family: sans-serif;
+
+}
+
+
+    
+a.ventana__arcor {
+    color: white;
+    text-decoration: none;
+    font-family: serif;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;}
