@@ -95,7 +95,7 @@ h2.h2__articulo {
 p.p__articulo {
   font-size: 20px;
   font-family: serif;
-  padding: 1em;
+  padding: 4em;
   padding-top: 0.2em; }
 
 @media screen and (max-width: 768px) {
@@ -216,3 +216,10 @@ a.footer__a {
 a.footer__a:hover {
   transform: scale(110%);
   transition: 1s; }
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: space-around; }
